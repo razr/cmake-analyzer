@@ -1,0 +1,68 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+*.bak
+*.swp
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+
+# -------------------------
+# Build / CMake
+# -------------------------
+build/
+_build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Testing/
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+
+# -------------------------
+# OS / Editor
+# -------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Reports / Output
+# -------------------------
+output/
+dist/
+tmp/
+temp/
+*.tmp
+*.json
+*.xml
+*.csv
+*.zip
+
+# -------------------------
+# Coverage / Testing
+# -------------------------
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.pytest_cache/
+

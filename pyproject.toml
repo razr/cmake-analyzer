@@ -1,0 +1,10 @@
+[project]
+name = "cmake-analyzer"
+version = "0.1.0"
+description = "Analyze and extract information from CMake build configurations"
+authors = [{name="Your Name"}]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+cmake-analyzer = "cmake_analyzer.cli:main"

@@ -1,0 +1,4 @@
+# Core dependencies
+cmake-file-api>=0.4.0
+pathlib
+argparse
